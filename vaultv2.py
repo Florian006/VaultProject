@@ -201,7 +201,7 @@ class VaultFinance:
             messagebox.showinfo("Admin", f"Modified {u}'s balance by {amt}")
         except: messagebox.showerror("Error", "Select user and enter valid amount")
 
-    # --- VAULT LOGIC (Same as Ultimate) ---
+    # --- VAULT LOGIC ---
     def setup_vault_tab(self):
         f = tk.Frame(self.tab_vault, bg="white", padx=15, pady=15)
         f.pack(fill="x", padx=20, pady=20)
